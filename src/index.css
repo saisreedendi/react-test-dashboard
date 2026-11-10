@@ -1,0 +1,17 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f8fa; color: #1f2933; }
+main { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+h1 { color: #007698; }
+.cards { display: flex; gap: 12px; margin-bottom: 16px; }
+.card { flex: 1; padding: 12px 16px; border-radius: 8px; background: #fff; border-left: 6px solid; }
+.card b { font-size: 1.6rem; display: block; }
+.card.passed { border-color: #2e9e5b; } .card.failed { border-color: #d64545; } .card.skipped { border-color: #8a94a0; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.controls button { padding: 6px 12px; border: 1px solid #c5ccd3; background: #fff; border-radius: 6px; cursor: pointer; }
+.controls button.active { background: #007698; color: #fff; border-color: #007698; }
+.controls input { flex: 1; min-width: 160px; padding: 6px 10px; border: 1px solid #c5ccd3; border-radius: 6px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e4e8ec; }
+.row-failed { background: #fff5f5; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: .8rem; font-weight: 600; }
+.badge-passed { background: #d9f2e3; color: #1e6b3d; } .badge-failed { background: #fbdcdc; color: #9b2c2c; } .badge-skipped { background: #e4e8ec; color: #52606d; }
+.error { color: #9b2c2c; } .empty { color: #52606d; }
